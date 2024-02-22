@@ -1,0 +1,51 @@
+body {
+    margin: 100px;
+    justify-content: center;
+}
+div.d-flex {
+    margin-top: 15px;
+    width: 100%;
+}
+div.target {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.Amount {
+    width: 40%;
+    padding-left: 10px;
+}
+div.d-flex.Amount {
+    width: 100%;
+    padding-right: 10px;
+}
+div.content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.text-red.border.form-control {
+    background: rgb(236, 184, 184);
+    color: rgb(143, 104, 104);
+}
+div.name {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.Last.Name {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.d-flex.medio{
+    background: gray;
+    width: 40%;
+}
+
+div.d-flex.tercero{
+    width: 200%;
+}
+div.card.footer{
+    justify-content: end;
+}
