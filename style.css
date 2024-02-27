@@ -1,33 +1,40 @@
 body {
-    margin: 100px;
-    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
 }
-div.d-flex {
-    margin-top: 15px;
-    width: 100%;
-}
-div.target {
-    width: 40%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-div.Amount {
-    width: 40%;
-    padding-left: 10px;
-}
-div.d-flex.Amount {
-    width: 100%;
-    padding-right: 10px;
+
+div.primera-caja{
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 div.content {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-div.text-red.border.form-control {
+    display: flex;
+    align-items: center;
     background: rgb(236, 184, 184);
     color: rgb(143, 104, 104);
 }
+
+div.d-flex.primero{
+    width: 100%;
+}
+
+div.Card{
+    width: 100%;
+    margin-right: 15px;
+}
+
+div.CVC{
+    width: 60%;
+}
+
+div.Amount{
+    width: 100%;
+    margin-left: 15px;
+}
+
 div.name {
     width: 50%;
     padding-left: 10px;
@@ -40,12 +47,26 @@ div.Last.Name {
 }
 div.d-flex.medio{
     background: gray;
-    width: 40%;
+    width: 45%;
+}
+
+div.form-check{
+    width: 100%;
 }
 
 div.d-flex.tercero{
-    width: 200%;
+    width: 100%;
 }
+
+div.State{
+    width: 100%;
+    margin-right: 10px;
+}
+.Postal.Code{
+    width: 100%;
+    
+}
+
 div.card.footer{
     justify-content: end;
 }
